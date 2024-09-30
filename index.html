@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vòng lặp for</title>
+</head>
+
+<body>
+    <h1>Các bài toán sử dụng vòng lặp for</h1>
+
+    <!-- Tính tổng các số từ 1 đến 100 -->
+    <h2>Tính tổng các số từ 1 đến 100</h2>
+    <button onclick="tinhTong100()">Tính</button>
+    <p id="resultTong100"></p>
+
+    <!-- Tính tổng các số chia hết cho 3 bé hơn n -->
+    <h2>Tính tổng các số chia hết cho 3 bé hơn n</h2>
+    <label for="soN">Nhập số tự nhiên n: </label>
+    <input type="number" id="soN">
+    <button onclick="tinhTongChiaHetCho3()">Tính</button>
+    <p id="resultTongChiaHetCho3"></p>
+
+    <!-- In ra 100 số Fibonacci đầu tiên -->
+    <h2>In ra 100 số Fibonacci đầu tiên</h2>
+    <button onclick="inFibonacci()">In Fibonacci</button>
+    <p id="resultFibonacci"></p>
+
+    <!-- Kiểm tra số Palindrome -->
+    <h2>Kiểm tra số Palindrome</h2>
+    <label for="soPalindrome">Nhập số nguyên: </label>
+    <input type="number" id="soPalindrome">
+    <button onclick="kiemTraPalindrome()">Kiểm tra</button>
+    <p id="resultPalindrome"></p>
+
+    <!-- Liệt kê các số từ 100 đến 999 có tổng các chữ số chia hết cho 3 -->
+    <h2>Liệt kê các số từ 100 đến 999 có tổng các chữ số chia hết cho 3</h2>
+    <button onclick="lietKeSoChiaHetCho3()">Liệt kê</button>
+    <p id="resultLietKe"></p>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
